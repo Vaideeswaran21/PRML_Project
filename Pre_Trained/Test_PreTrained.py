@@ -34,10 +34,10 @@ def first():
 
    # Reading from the image directory
 
-   directory = os.listdir("C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML\Diabetic_Retinopathy/test")
+   directory = os.listdir("C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML/Diabetic_Retinopathy/test")
    list_len_VGG = len(directory)
 
-   with open('C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML/Diabetic_Retinopathy/VGG_Labels.csv', 'w', newline = '') as f:
+   with open('C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML/Diabetic_Retinopathy/Pre_Trained/VGG_Labels.csv', 'w', newline = '') as f:
         writer = csv.writer(f)
         
         for y in range(list_len_VGG):
@@ -69,10 +69,10 @@ def second():
 
    # Reading from the image directory
 
-   directory = os.listdir("C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML\Diabetic_Retinopathy/test")
+   directory = os.listdir("C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML/Diabetic_Retinopathy/test")
    list_len_Res = len(directory)
 
-   with open('C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML/Diabetic_Retinopathy/ResNet50_Labels.csv', 'w', newline = '') as f:
+   with open('C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML/Diabetic_Retinopathy/Pre_Trained/ResNet50_Labels.csv', 'w', newline = '') as f:
         writer = csv.writer(f)
         
         for y in range(list_len_Res):
@@ -102,10 +102,10 @@ def third():
         layers.Dense(5, activation='softmax')
     ])
    
-   directory = os.listdir("C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML\Diabetic_Retinopathy/test")
+   directory = os.listdir("C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML/Diabetic_Retinopathy/test")
    list_len_B3 = len(directory)
    
-   with open('C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML/Diabetic_Retinopathy/Models/EfficientNetB3_Labels.csv', 'w', newline = '') as f:
+   with open('C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML/Diabetic_Retinopathy/Pre_Trained/EfficientNetB3_Labels.csv', 'w', newline = '') as f:
         writer = csv.writer(f)
 
         for y in range(list_len_B3):
@@ -135,10 +135,10 @@ def fourth():
         layers.Dense(5, activation='softmax')  # 5 classes
     ])
 
-    directory = os.listdir("C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML\Diabetic_Retinopathy/test")
+    directory = os.listdir("C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML/Diabetic_Retinopathy/test")
     list_len_B4 = len(directory)
     
-    with open('C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML/Diabetic_Retinopathy/Models/EfficientNetB4_Labels.csv', 'w', newline = '') as f:
+    with open('C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML/Diabetic_Retinopathy/Pre_Trained/EfficientNetB4_Labels.csv', 'w', newline = '') as f:
         writer = csv.writer(f)
 
         for y in range(list_len_B4):
