@@ -6,7 +6,7 @@ from sklearn import metrics
 import pandas as pd
 
 # Load the labels from the .csv file
-df1 = pd.read_csv('C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML/Diabetic_Retinopathy/testLabels.csv/testLabels.csv')
+df1 = pd.read_csv('C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML/Diabetic_Retinopathy/testLabels.csv')
 df2 = pd.read_csv('C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML/Diabetic_Retinopathy/Models/VGG_Labels.csv')
 df3 = pd.read_csv('C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML/Diabetic_Retinopathy/Models/ResNet50_Labels.csv')
 df4 = pd.read_csv('C:/Users/vaide/OneDrive/Documents/IIT Hyderabad/Semester 5/Full Semester Courses/PRML/Diabetic_Retinopathy/Models/EfficientNetB3_Labels.csv')
