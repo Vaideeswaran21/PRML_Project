@@ -24,4 +24,4 @@ Owing to several challenges with the first dataset, a new dataset had to be expl
 
 # Reports
 
-All the detailed analysis can be found in the reports and slides. Links to the datasets can also be found in those. There might be rendering issues when viewed via GitHub and hence is downloading is strongly recommended.
+All the detailed analysis can be found in the reports and slides. Links to the datasets can also be found in those. There might be rendering issues when viewed via GitHub and hence downloading is strongly recommended.
