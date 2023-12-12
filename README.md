@@ -21,3 +21,7 @@ Owing to several challenges with the first dataset, a new dataset had to be expl
 
 1. Since we are performing large amounts of file handling, it becomes imperative to see if the contents in the image directory and the labels provided in the csv file actually match. This is done so using Match_Check.py. Discrepancies (if any) are reported as an output list.
 2. model_info.py provides a detailed flow-chart of the model architecture, number of node and so forth.
+
+# Reports
+
+All the detailed analysis can be found in the reports and slides. Links to the datasets can also be found in those. There might be rendering issues when viewed via GitHub and hence is downloading is strongly recommended.
